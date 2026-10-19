@@ -51,6 +51,8 @@ function scheduleApply() {
   scheduled = true;
   requestAnimationFrame(() => {
     scheduled = false;
+    // 予約してから実行するまでに、ホーム以外へ遷移することがある
+    if (!isHome()) return;
     applyHide();
   });
 }
