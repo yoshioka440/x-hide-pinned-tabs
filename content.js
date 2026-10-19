@@ -1,6 +1,6 @@
 // X のホーム上部のタブ列から、指定した名前のタブを隠す
+// DEFAULT_NAMES は defaults.js で定義（manifest で先に読み込む）
 
-const DEFAULT_NAMES = ["MLB"];
 const HIDDEN_MARK = "xhptHidden";
 
 let hiddenNames = DEFAULT_NAMES.map(normalize);

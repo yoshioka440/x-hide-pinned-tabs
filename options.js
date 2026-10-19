@@ -3,7 +3,8 @@
 const textarea = document.getElementById("names");
 const status = document.getElementById("status");
 
-chrome.storage.sync.get({ names: ["MLB"] }, ({ names }) => {
+// DEFAULT_NAMES は defaults.js で定義（options.html で先に読み込む）
+chrome.storage.sync.get({ names: DEFAULT_NAMES }, ({ names }) => {
   textarea.value = names.join("\n");
 });
 

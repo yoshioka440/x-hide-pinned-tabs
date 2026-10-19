@@ -17,4 +17,5 @@ X のホームに固定される、スポーツなどのタブ（例: MLB）を�
 
 - X の DOM（`role="tablist"` / `role="tab"`）が変わると効かなくなる。直すときはまず実際の x.com の DOM を確認する
 - タブ名の一致は前後の空白を除き、大文字小文字を無視した完全一致
+- 隠すタブ名の初期値は `defaults.js` の `DEFAULT_NAMES` だけで管理する。manifest・options.html・test/mock.html で content.js / options.js より先に読み込むこと
 - 動くのは `location.pathname === "/home"` のときだけ（`isHome()`）。モックは file: で開くので例外扱いにしている
