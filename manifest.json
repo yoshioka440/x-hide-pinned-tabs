@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "X Hide Pinned Tabs",
+  "version": "0.1.0",
+  "description": "X のホームに固定される MLB などのタブを非表示にする",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  }
+}
