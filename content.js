@@ -37,10 +37,17 @@ function applyHide() {
   if (hiddenSelected && firstVisible) firstVisible.click();
 }
 
+// 隠すのはホームのタブ列だけ。プロフィールや検索のタブには触らない
+// （file: はモック test/mock.html での確認用）
+function isHome() {
+  return location.pathname === "/home" || location.protocol === "file:";
+}
+
 // X は画面を差し替え続けるので、DOM の変化のたびに（1フレームにまとめて）かけ直す
+// X はページ遷移でも再読み込みしないので、パスは変化のたびに見る
 let scheduled = false;
 function scheduleApply() {
-  if (scheduled) return;
+  if (scheduled || !isHome()) return;
   scheduled = true;
   requestAnimationFrame(() => {
     scheduled = false;
