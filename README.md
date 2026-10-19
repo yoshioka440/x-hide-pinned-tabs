@@ -7,6 +7,14 @@ X（旧 Twitter）のホーム上部に勝手に固定される「MLB」など�
 >
 > This is an unofficial tool, not affiliated with or endorsed by X Corp. or Major League Baseball.
 
+**入れる前**
+
+![拡張を入れる前: おすすめ・フォロー中・MLB のタブが並ぶ](docs/before.png)
+
+**入れた後**
+
+![拡張を入れた後: MLB のタブが消え、おすすめ・フォロー中だけになる](docs/after.png)
+
 ## 使い方
 
 1. Chrome で `chrome://extensions` を開く
