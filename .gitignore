@@ -1,3 +1,6 @@
 *.zip
 *.crx
 *.pem
+
+# Claude Code の個人設定
+.claude/settings.local.json
