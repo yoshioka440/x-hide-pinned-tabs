@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "X Hide Pinned Tabs",
   "version": "0.1.0",
-  "description": "X のホームに固定される MLB などのタブを非表示にする",
+  "description": "X のホームに固定されるスポーツなどのタブ（例: MLB）を非表示にする",
   "permissions": ["storage"],
   "content_scripts": [
     {

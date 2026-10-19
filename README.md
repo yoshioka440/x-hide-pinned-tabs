@@ -1,6 +1,6 @@
 # x-hide-pinned-tabs
 
-X（旧 Twitter）のホーム上部に勝手に固定される「MLB」などのタブを非表示にする Chrome 拡張。
+X（旧 Twitter）のホーム上部に勝手に固定される、スポーツなどのタブ（例: MLB）を非表示にする Chrome 拡張。
 
 > **非公式ツールです。** X Corp. および MLB（Major League Baseball）とは一切関係がなく、承認や提携も受けていません。
 > 「X」「Twitter」「MLB」は各権利者の商標です。

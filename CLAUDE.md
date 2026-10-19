@@ -1,6 +1,6 @@
 # x-hide-pinned-tabs
 
-X のホームに固定される「MLB」などのタブを隠す Chrome 拡張（Manifest V3、ビルド不要の素の JS）。
+X のホームに固定される、スポーツなどのタブ（例: MLB）を隠す Chrome 拡張（Manifest V3、ビルド不要の素の JS）。
 
 ## 実行
 
